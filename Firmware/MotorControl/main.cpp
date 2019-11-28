@@ -1,6 +1,6 @@
 
 #define __MAIN_CPP__
-#include "odrive_main.h"
+#include "jfq_main.h"
 #include "nvm_config.hpp"
 
 #include "freertos_vars.h"
