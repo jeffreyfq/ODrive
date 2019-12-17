@@ -32,15 +32,15 @@ UART_HandleTypeDef huart6;
 void MX_USART1_UART_Init(void)
 {
 
-  huart4.Instance = UART4;
-  huart4.Init.BaudRate = 115200;  // Provisionally this can be changed to 921600 for faster transfers, the low power Arduinos will not keep up. 
-  huart4.Init.WordLength = UART_WORDLENGTH_8B;
-  huart4.Init.StopBits = UART_STOPBITS_1;
-  huart4.Init.Parity = UART_PARITY_NONE;
-  huart4.Init.Mode = UART_MODE_TX_RX;
-  huart4.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart4.Init.OverSampling = UART_OVERSAMPLING_16;
-  if (HAL_UART_Init(&huart4) != HAL_OK)
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 115200;  // Provisionally this can be changed to 921600 for faster transfers, the low power Arduinos will not keep up. 
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
   {
     Error_Handler();
   }
