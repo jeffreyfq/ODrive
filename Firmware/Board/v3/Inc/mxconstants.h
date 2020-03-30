@@ -38,6 +38,8 @@
 
 /* Private define ------------------------------------------------------------*/
 
+
+/*
 #define M0_nCS_Pin GPIO_PIN_13
 #define M0_nCS_GPIO_Port GPIOC
 #define M1_nCS_Pin GPIO_PIN_14
@@ -118,6 +120,9 @@
 #define M1_ENC_A_GPIO_Port GPIOB
 #define M1_ENC_B_Pin GPIO_PIN_7
 #define M1_ENC_B_GPIO_Port GPIOB
+*/
+
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

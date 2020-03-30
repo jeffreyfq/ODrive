@@ -59,7 +59,7 @@ typedef struct {
     GateDriverHardwareConfig_t gate_driver_config;
 } BoardHardwareConfig_t;
 
-extern const BoardHardwareConfig_t hw_configs[2];
+extern const BoardHardwareConfig_t hw_configs[1];
 extern const float thermistor_poly_coeffs[];
 extern const size_t thermistor_num_coeffs;
 

@@ -54,6 +54,7 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#include "cmsis_os.h"
 #include "freertos_vars.h"
 #include <stdbool.h>
 
